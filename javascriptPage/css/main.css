@@ -1,0 +1,38 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+hr{
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+}
+
+h1,h3, a {
+  color: #effcef;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  width: 60%;
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 80%; background-color: #f44336;} /* Red */
+.java {width: 80%; background-color: #808080;} /* Dark Grey */
+.react {width: 80%; background-color: #1317d6;} /* Dark Grey */
